@@ -1,0 +1,14 @@
+<h1>Hello Worlld!</h1>
+
+<p>This is my first page!!!</p>
+
+<p>My First name is {{ first_name}}</p>
+
+<p>{{ stuff|safe }}</p>
+<p>{{ stuff|striptags }}</p>
+<p>{{ text|title }}</p>
+
+<h3>names are</h3>
+    {% for name in names %}
+        <ol>{{ name }}</ol>
+    {% endfor %}
